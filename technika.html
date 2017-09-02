@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TECHNIKA</title>
+<link rel="stylesheet" type="text/css" href="styles.css"> 
+
+<link rel="icon" type="image/ico" sizes="144x144" href="create_thumb.png" />
+<style>
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: red;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+<style>
+div.img {
+    border: 1px solid #ccc;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+
+
+
+<body>
+<header>
+    <hgroup>
+      <div class="header">
+    <a href="index.html" title="Return to the homepage" id="logo">
+  <img src="create_thumb.png" alt="bitpN logo" />
+</a>
+    </div>
+       <h1 style="font-family:verdana;">BIT PATNA INFO PORTAL</h1>
+      <h3>An Online Info Board of Campus</h3>
+       
+    </hgroup>
+    
+</header>
+<hr>
+<ul class="topnav" id="myTopnav">
+ <li><a class="active" href="index.html">Home</a></li>
+ <li><a href="event.html">Events</a></li>
+ <li><a href="news.html">News</a></li>
+ <li><a href="notices.html">Notices</a></li>
+ 	
+ <li class="icon">
+  <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+ </li>
+</ul>
+
+ <div style="padding-left:16px">
+			
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<section>
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="download (1).jpg">
+      <img src="download (1).jpg" alt="technika" width="300" height="200">
+    </a>
+    <div class="desc">EXUBERANCE</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="download (2).jpg">
+      <img src="download (2).jpg" alt="technika" width="600" height="400">
+    </a>
+    <div class="desc">EXUBERANCE</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="download (3).jpg">
+      <img src="download (3).jpg" alt="technika" width="600" height="400">
+    </a>
+    <div class="desc">EXUBERANCE</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="download.jpg">
+      <img src="download.jpg" alt="technika" width="600" height="400">
+    </a>
+    <div class="desc">EXUBERANCE</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+</section>
+<footer>
+<small>Copyright © 2016 vishal kumar</small>
+</footer>
+</body>
+</html>

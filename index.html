@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>bitpinfo.com</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="icon" type="image/ico" sizes="144x144" href="create_thumb.png" />
+<style> 
+ .container {
+
+    
+    border: 2px solid green;
+    margin-left: 110px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: lightgreen;
+
+   }
+
+
+</style>
+
+
+<style>
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: red;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<header>
+   
+
+    <div class="header">
+    <a href="index.html" title="Return to the homepage" id="logo">
+  <img src="create_thumb.png" alt="bitpN logo" />
+</a>
+    </div>
+ <div class="header">
+      <h1 style="font-family:verdana;">BIT PATNA INFO PORTAL</h1>
+      <h3>An Online Info Board of Campus</h3>
+      </div>
+    
+
+    
+</header>
+
+<hr>
+
+<marquee behaviour= "scroll"
+direction= "left"> <h3 style="color:red;">Latest Info Update 2017 * TECHNIKA'17 BIT PATNA</h3>
+</marquee>
+<ul class="topnav" id="myTopnav">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="event.html">Events</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="#">Routine</a></li>
+  <li><a href="notices.html">Notices</a></li>
+  <li style="float:right"><a href="contact.html">Contact Us</a></li>
+  <li style="float:right"><a href="vk.html">About Us</a></li>
+ 
+  <li class="icon">
+      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+   </li>
+  
+</ul>
+
+<div style="padding-left:16px">
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<section>
+
+
+<div class="container"><center><h4>WELCOME TO BIT PATNA INFO PORTAL!!!</h4></CENTER><p>BITPinfo is an online portal that will provides you updated informations at college.<br>You can use BITPinfo to:<br><li>search for notices & important updates of your college</li><br><li>search for daily Routine & syllabus of every branch.</li><br>
+<li>Find out your college's upcoming events & also EVENTS photographs</li><br><li>Get daily news update</li></p><br><strong>To get started go to the navigation bar.Please give us feedback of website</strong>(Write me to email)</p></div>
+
+
+
+</section>
+
+<footer>
+<small>a Vishal Kumar production<br>BITPinfo.com Copyright © 2016</small>
+</footer>
+</body>
+</html>

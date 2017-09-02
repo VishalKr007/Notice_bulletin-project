@@ -1,0 +1,14 @@
+﻿img    {
+    border-radius: 20px;
+    
+  
+ }
+.header img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    }
+section{
+  width: 92%;
+  margin-top: 20px;
+}
